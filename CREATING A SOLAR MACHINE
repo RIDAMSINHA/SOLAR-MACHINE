@@ -1,0 +1,39 @@
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.18;
+
+/* REQUIREMENT
+
+1.  Contract successfully uses require()
+2.  Contract successfully uses assert()
+3.  Contract successfully uses revert() statements
+
+*/
+
+contract Assignment {
+    bool public sunny = true;
+    bool public umbrella = false;
+    uint finalCal = 0;
+
+    // solar panal machine
+    function solar () public {
+        require(sunny,"IT IS NOT SUNNY TODAY!!");
+        finalCal += 3;
+    // finalCal can neve be equal to 6
+        assert (finalCal != 6);
+    }
+    // machine that controls weather 
+    function weatherChanger() public{
+        sunny = !sunny;
+    }
+    // grab final finalCal
+    function getCal() public view returns(uint) {
+        return finalCal;
+    }
+    function BringUmbrella () public {
+        if(!sunny){
+            umbrella = true;
+        }else{
+            revert("NO NEED TO BRING UMBRELLA TODAY!!");
+        }
+    }
+}
