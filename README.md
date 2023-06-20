@@ -42,6 +42,12 @@ Once deployed, you can interact with the contract using the provided functions:
 
 The contract is developed using Solidity version 0.8.18. It is recommended to use a compatible Solidity compiler or development framework (e.g., Remix, Truffle) for compilation and deployment.
 
+## Authors
+
+RIDAM ADITYA SINHA
+
+ridamsinha20@gmail.com
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
