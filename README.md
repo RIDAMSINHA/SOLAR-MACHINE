@@ -46,6 +46,8 @@ The contract is developed using Solidity version 0.8.18. It is recommended to us
 
 RIDAM ADITYA SINHA
 
+https://www.linkedin.com/in/ridam-sinha-188133210/
+
 ridamsinha20@gmail.com
 
 ## License
